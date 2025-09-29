@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10c1cce8-0388-40b7-b738-24d65859e092" name="Changes" comment="" />
+    <list default="true" id="10c1cce8-0388-40b7-b738-24d65859e092" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/dtos/BlogRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/dtos/BlogResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/service/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/dtos/BlogResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/dtos/ProductRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/feign/BlogClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/ProductResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/UserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/UserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/UserWithProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/feign/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/feign/ProductClientFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/ProductServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +43,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,6 +72,16 @@
     "onboarding.tips.debug.path": "E:/SpringBoot Projects/time-management/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.evytechno.product_service.dtos" />
+      <recent name="com.evytechno.user_service.dtos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.evytechno.product_service.dtos" />
+      <recent name="com.evytechno.user_service.dtos" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

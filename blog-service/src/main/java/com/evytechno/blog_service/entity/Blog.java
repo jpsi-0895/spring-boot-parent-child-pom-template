@@ -17,6 +17,9 @@ public class Blog {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "blog_by")
+    private String blogBy;
+
     @Column(name = "blog_description")
     private String blogDescription;
 }
