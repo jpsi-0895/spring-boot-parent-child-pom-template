@@ -5,35 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10c1cce8-0388-40b7-b738-24d65859e092" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/dtos/BlogRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/dtos/BlogResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/repository/BlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/service/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/dtos/BlogResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/dtos/ProductRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/feign/BlogClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/ProductResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/UserRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/UserResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/dtos/UserWithProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/feign/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/feign/ProductClientFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/main/java/com/evytechno/service_registry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-registry/src/test/java/com/evytechno/service_registry/ServiceRegistryApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/controller/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/evytechno/blog_service/entity/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/feign/BlogClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/evytechno/product_service/feign/BlogClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/feign/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/evytechno/user_service/feign/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "E:/SpringBoot Projects/production-management-system",
+    "last_opened_file_path": "E:/SpringBoot Projects/service-discovery",
     "onboarding.tips.debug.path": "E:/SpringBoot Projects/time-management/src/main/java/org/example/Main.java"
   }
 }]]></component>
